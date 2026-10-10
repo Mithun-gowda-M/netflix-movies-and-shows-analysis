@@ -18,7 +18,7 @@
         <div class="netflix-logo">NETFLIX</div>
         <div>
           <h1>Content Library & Audience Engagement Intelligence</h1>
-          <p class="subtitle">Global Streaming Trends, Genre Success Profiles, Age Targeting & Viewer Preference Modeling</p>
+          <p class="subtitle">2nd Year Engineering Mini Project • Submitted by Mithun Gowda M • Streaming Trends, Age Targeting & Viewer Preferences</p>
         </div>
       </div>
       <div class="filter-controls">
@@ -124,6 +124,37 @@
       </div>
     </main>
 
+    <!-- AIML Recommender System & Engagement Classification (Final Year AIML Showcase) -->
+    <section class="card ai-section">
+      <div class="card-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 22px;">🤖</span>
+          <div>
+            <h2 style="color: #f87171;">AIML Content Recommender (Cosine Similarity) & Engagement Classification</h2>
+            <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">TF-IDF Genre Vectorization • Pairwise Cosine Similarity • Multi-Class Quality vs Popularity Matrix</p>
+          </div>
+        </div>
+        <span class="card-tag" style="background: rgba(229, 9, 20, 0.2); color: #fca5a5; border: 1px solid rgba(229, 9, 20, 0.3);">AIML Capstone</span>
+      </div>
+
+      <div class="ai-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <!-- Engagement Classifier Chart -->
+        <div>
+          <h3 style="font-size: 13px; color: var(--text-main); margin-bottom: 12px;">📊 Viewer Engagement & Acclaim Tiers Distribution</h3>
+          <div class="chart-container" style="height: 250px;">
+            <canvas id="engagementChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Live Content Recommender Card -->
+        <div style="background: rgba(255, 255, 255, 0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); display: flex; flex-direction: column; gap: 12px;">
+          <h3 style="font-size: 13px; color: var(--text-main);">🎯 Nearest Neighbor Content Recommendation Engine</h3>
+          <p style="font-size: 12px; color: var(--text-muted);">Seed Title: <strong style="color: #ffffff;">Taxi Driver</strong> <span class="score-badge high">⭐ 8.3</span></p>
+          <div id="recommenderOutput" style="display: flex; flex-direction: column; gap: 8px;"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- Top Performing Titles & Predictive Preferences -->
     <section class="card">
       <div class="card-header">
@@ -151,10 +182,11 @@
 
     <!-- Footer -->
     <footer class="dashboard-footer">
-      <p>Power BI Mini Project 4 • Netflix Movies and Shows • Predictive Viewer Preferences & Audience Targeting</p>
+      <p>Power BI Mini Project 4 • Developed by Mithun Gowda M (2nd Year Engineering) • Viewer Preference Modeling & Audience Targeting</p>
     </footer>
   </div>
 
+  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

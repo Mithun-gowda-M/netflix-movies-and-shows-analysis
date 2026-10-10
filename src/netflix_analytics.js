@@ -164,6 +164,11 @@ function processNetflixData(csvPath) {
   const avgScore = scoreCount > 0 ? Number((totalScore / scoreCount).toFixed(2)) : 0;
   const avgRuntime = runtimeCount > 0 ? Number((totalRuntime / runtimeCount).toFixed(1)) : 0;
 
+  // AIML Integration: Content-Based Recommender & Engagement Classification
+  const { buildRecommender, classifyEngagementTiers } = require('./netflix_ml_engine');
+  const mlRecommender = buildRecommender(cleanRecords, 100);
+  const mlTiers = classifyEngagementTiers(cleanRecords);
+
   return {
     kpis: {
       totalTitles,
@@ -174,6 +179,10 @@ function processNetflixData(csvPath) {
       avgScore,
       totalVotes,
       avgRuntimeMinutes: avgRuntime
+    },
+    aiIntelligence: {
+      recommender: mlRecommender,
+      engagementTiers: mlTiers
     },
     yearlyTrends: yearMap,
     genres: topGenres.slice(0, 12),

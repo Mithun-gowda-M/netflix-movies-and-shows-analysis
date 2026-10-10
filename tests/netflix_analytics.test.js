@@ -36,4 +36,22 @@ assert(result.genres.length >= 8, 'Must extract top genres');
 assert(Object.keys(result.ageCertifications).includes('TV-MA'), 'Must include TV-MA rating');
 console.log('✓ Test 5 Passed: Genre and age certification classifications verified');
 
-console.log('\nAll Netflix Content Analytics tests passed successfully! (5/5)');
+// Test 6: AIML Content-Based Recommender (Cosine Similarity)
+const recs = result.aiIntelligence.recommender.recommendations;
+assert(recs.length > 0, 'Must produce content recommendations');
+recs.forEach(r => {
+  assert(r.topMatches.length > 0, 'Seed title must have recommendations');
+  r.topMatches.forEach(m => {
+    assert(m.similarityScore >= 0 && m.similarityScore <= 1, `Cosine similarity out of bounds [0, 1]: ${m.similarityScore}`);
+  });
+});
+console.log(`✓ Test 6 Passed: AIML TF-IDF & Cosine similarity recommender verified (Seed: ${recs[0].seedTitle} -> Top match: ${recs[0].topMatches[0].targetTitle})`);
+
+// Test 7: AIML Viewer Engagement Classifier
+const tiers = result.aiIntelligence.engagementTiers;
+assert.strictEqual(tiers.length, 4, 'Must produce 4 engagement tiers');
+const totalClassified = tiers.reduce((a, b) => a + b.count, 0);
+assert.strictEqual(totalClassified, result.kpis.totalTitles, 'All titles must be classified into tiers');
+console.log('✓ Test 7 Passed: AIML Multi-class viewer engagement classification validated');
+
+console.log('\nAll Netflix Content Analytics tests passed successfully! (7/7)');

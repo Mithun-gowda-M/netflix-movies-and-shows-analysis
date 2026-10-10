@@ -9,6 +9,444 @@
     "totalVotes": 123285696,
     "avgRuntimeMinutes": 78
   },
+  "aiIntelligence": {
+    "recommender": {
+      "vocabularySize": 19,
+      "recommendations": [
+        {
+          "seedTitle": "Taxi Driver",
+          "seedGenres": [
+            "crime",
+            "drama"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Once Upon a Time in America",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 8.3,
+              "genres": [
+                "drama",
+                "crime",
+                "european"
+              ]
+            },
+            {
+              "targetTitle": "Bonnie and Clyde",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 7.7,
+              "genres": [
+                "drama",
+                "crime",
+                "action"
+              ]
+            },
+            {
+              "targetTitle": "Donnie Brasco",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 7.7,
+              "genres": [
+                "thriller",
+                "drama",
+                "crime"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "Monty Python and the Holy Grail",
+          "seedGenres": [
+            "comedy",
+            "fantasy"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Last Action Hero",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 6.4,
+              "genres": [
+                "comedy",
+                "action",
+                "fantasy"
+              ]
+            },
+            {
+              "targetTitle": "Seinfeld",
+              "targetType": "SHOW",
+              "similarityScore": 0.7071,
+              "imdbScore": 8.9,
+              "genres": [
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "Life of Brian",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 8,
+              "genres": [
+                "comedy"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "Life of Brian",
+          "seedGenres": [
+            "comedy"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Seinfeld",
+              "targetType": "SHOW",
+              "similarityScore": 1,
+              "imdbScore": 8.9,
+              "genres": [
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "Waiting for the Hearse",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 8,
+              "genres": [
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "Road Trip",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 6.5,
+              "genres": [
+                "comedy"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "The Exorcist",
+          "seedGenres": [
+            "horror"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "A Nightmare on Elm Street",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 7.4,
+              "genres": [
+                "horror"
+              ]
+            },
+            {
+              "targetTitle": "I Know What You Did Last Summer",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 5.7,
+              "genres": [
+                "horror",
+                "thriller"
+              ]
+            },
+            {
+              "targetTitle": "I Still Know What You Did Last Summer",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 4.7,
+              "genres": [
+                "thriller",
+                "horror"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "Monty Python's Flying Circus",
+          "seedGenres": [
+            "comedy",
+            "european"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Seinfeld",
+              "targetType": "SHOW",
+              "similarityScore": 0.7071,
+              "imdbScore": 8.9,
+              "genres": [
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "Life of Brian",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 8,
+              "genres": [
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "Waiting for the Hearse",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 8,
+              "genres": [
+                "comedy"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "Dirty Harry",
+          "seedGenres": [
+            "thriller",
+            "crime",
+            "action"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "U.S. Marshals",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 6.5,
+              "genres": [
+                "thriller",
+                "crime",
+                "action"
+              ]
+            },
+            {
+              "targetTitle": "In the Line of Fire",
+              "targetType": "MOVIE",
+              "similarityScore": 0.866,
+              "imdbScore": 7.2,
+              "genres": [
+                "drama",
+                "thriller",
+                "action",
+                "crime"
+              ]
+            },
+            {
+              "targetTitle": "The Net",
+              "targetType": "MOVIE",
+              "similarityScore": 0.866,
+              "imdbScore": 5.9,
+              "genres": [
+                "thriller",
+                "action",
+                "crime",
+                "drama"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "My Fair Lady",
+          "seedGenres": [
+            "drama",
+            "music",
+            "romance",
+            "family"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Little Women",
+              "targetType": "MOVIE",
+              "similarityScore": 0.866,
+              "imdbScore": 7.3,
+              "genres": [
+                "drama",
+                "family",
+                "romance"
+              ]
+            },
+            {
+              "targetTitle": "Free Willy",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 6,
+              "genres": [
+                "drama",
+                "family"
+              ]
+            },
+            {
+              "targetTitle": "The Blue Lagoon",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7071,
+              "imdbScore": 5.8,
+              "genres": [
+                "romance",
+                "drama"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "The Blue Lagoon",
+          "seedGenres": [
+            "romance",
+            "drama"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Endless Love",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 4.9,
+              "genres": [
+                "drama",
+                "romance"
+              ]
+            },
+            {
+              "targetTitle": "Forrest Gump",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 8.8,
+              "genres": [
+                "drama",
+                "romance",
+                "comedy"
+              ]
+            },
+            {
+              "targetTitle": "When Harry Met Sally...",
+              "targetType": "MOVIE",
+              "similarityScore": 0.8165,
+              "imdbScore": 7.7,
+              "genres": [
+                "romance",
+                "comedy",
+                "drama"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "Bonnie and Clyde",
+          "seedGenres": [
+            "drama",
+            "crime",
+            "action"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Agneepath",
+              "targetType": "MOVIE",
+              "similarityScore": 1,
+              "imdbScore": 7.6,
+              "genres": [
+                "action",
+                "crime",
+                "drama"
+              ]
+            },
+            {
+              "targetTitle": "In the Line of Fire",
+              "targetType": "MOVIE",
+              "similarityScore": 0.866,
+              "imdbScore": 7.2,
+              "genres": [
+                "drama",
+                "thriller",
+                "action",
+                "crime"
+              ]
+            },
+            {
+              "targetTitle": "Knight Rider",
+              "targetType": "SHOW",
+              "similarityScore": 0.866,
+              "imdbScore": 6.9,
+              "genres": [
+                "action",
+                "scifi",
+                "crime",
+                "drama"
+              ]
+            }
+          ]
+        },
+        {
+          "seedTitle": "The Professionals",
+          "seedGenres": [
+            "western",
+            "action",
+            "european"
+          ],
+          "topMatches": [
+            {
+              "targetTitle": "Desperado",
+              "targetType": "MOVIE",
+              "similarityScore": 0.7746,
+              "imdbScore": 7.1,
+              "genres": [
+                "thriller",
+                "action",
+                "crime",
+                "western",
+                "european"
+              ]
+            },
+            {
+              "targetTitle": "The Quick and the Dead",
+              "targetType": "MOVIE",
+              "similarityScore": 0.5774,
+              "imdbScore": 6.5,
+              "genres": [
+                "western",
+                "thriller",
+                "action",
+                "romance"
+              ]
+            },
+            {
+              "targetTitle": "The Mask of Zorro",
+              "targetType": "MOVIE",
+              "similarityScore": 0.5164,
+              "imdbScore": 6.8,
+              "genres": [
+                "action",
+                "thriller",
+                "western",
+                "comedy",
+                "romance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "engagementTiers": [
+      {
+        "tierName": "Blockbuster Hit",
+        "count": 141,
+        "percentage": 2.4
+      },
+      {
+        "tierName": "Critically Acclaimed Gem",
+        "count": 418,
+        "percentage": 7.2
+      },
+      {
+        "tierName": "Mainstream Commercial",
+        "count": 3243,
+        "percentage": 55.9
+      },
+      {
+        "tierName": "Underperforming / Niche",
+        "count": 2004,
+        "percentage": 34.5
+      }
+    ]
+  },
   "yearlyTrends": {
     "1990": {
       "movies": 7,

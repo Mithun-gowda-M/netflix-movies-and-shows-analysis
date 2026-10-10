@@ -7,17 +7,73 @@ let charts = {};
 
 async function init() {
   try {
-    const res = await fetch('netflix_summary.json');
-    netflixData = await res.json();
+    if (window.NETFLIX_SUMMARY) {
+      netflixData = window.NETFLIX_SUMMARY;
+    } else {
+      const res = await fetch('netflix_summary.json');
+      netflixData = await res.json();
+    }
     renderKPIs(netflixData.kpis);
     renderTrendChart(netflixData.yearlyTrends);
     renderAgeCertChart(netflixData.ageCertifications);
     renderGenreChart(netflixData.genres);
     renderCountryChart(netflixData.topCountries);
+    renderAICharts(netflixData.aiIntelligence);
     renderTitlesTable(netflixData.topRatedTitles);
     setupFilters();
   } catch (err) {
     console.error('Failed to load netflix data:', err);
+  }
+}
+
+function renderAICharts(ai) {
+  if (!ai) return;
+
+  // 1. Engagement Tiers Donut Chart
+  const tiers = ai.engagementTiers;
+  const labels = tiers.map(t => t.tierName);
+  const data = tiers.map(t => t.count);
+
+  const ctxEng = document.getElementById('engagementChart')?.getContext('2d');
+  if (ctxEng) {
+    charts.engagement = new Chart(ctxEng, {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{
+          data,
+          backgroundColor: ['#e50914', '#10b981', '#3b82f6', '#64748b'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', boxWidth: 10 } } }
+      }
+    });
+  }
+
+  // 2. Nearest Neighbor Recommender Output
+  const recContainer = document.getElementById('recommenderOutput');
+  if (recContainer && ai.recommender.recommendations.length > 0) {
+    const firstSeed = ai.recommender.recommendations[0];
+    recContainer.innerHTML = '';
+    firstSeed.topMatches.forEach((m, idx) => {
+      const div = document.createElement('div');
+      div.style.cssText = 'padding: 8px 12px; background: rgba(255, 255, 255, 0.04); border-radius: 6px; display: flex; justify-content: space-between; align-items: center;';
+      div.innerHTML = `
+        <div>
+          <span style="font-weight: 700; color: #f4f4f5;">#${idx + 1} ${m.targetTitle}</span>
+          <span style="font-size: 11px; color: #a1a1aa; margin-left: 8px;">(${m.targetType})</span>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); color: #60a5fa; padding: 2px 6px; border-radius: 4px;">Cosine: ${(m.similarityScore * 100).toFixed(1)}%</span>
+          <span class="score-badge high">⭐ ${m.imdbScore}</span>
+        </div>
+      `;
+      recContainer.appendChild(div);
+    });
   }
 }
 
