@@ -1,7 +1,8 @@
 /**
- * Automated Test Suite - Netflix Content Analytics
+ * Automated Test Suite - Netflix Content Analytics & Recommender AI
+ * Academic Capstone Submission • Final Year Engineering in AIML
+ * Student: Mithun Gowda M (B.E. / B.Tech AIML)
  */
-
 const assert = require('assert');
 const path = require('path');
 const { processNetflixData, cleanArrayField } = require('../src/netflix_analytics');

@@ -1,0 +1,23 @@
+{
+  "name": "netflix-movies-and-shows-analysis",
+  "version": "1.0.0",
+  "description": "Final Year AIML Engineering Capstone • Vector-Space Cosine Recommender AI, Multi-Class Viewer Engagement Classifier & Power BI Suite",
+  "main": "src/netflix_ml_engine.js",
+  "scripts": {
+    "test": "node tests/netflix_analytics.test.js",
+    "start": "npx serve dashboard",
+    "build": "node src/netflix_ml_engine.js"
+  },
+  "keywords": [
+    "machine-learning",
+    "power-bi",
+    "recommender-system",
+    "cosine-similarity",
+    "tf-idf",
+    "aiml-capstone",
+    "final-year-engineering"
+  ],
+  "author": "Mithun Gowda M <Final Year B.E. / B.Tech in Artificial Intelligence & Machine Learning (AIML)>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mithun-gowda-M/netflix-movies-and-shows-analysis"
+}

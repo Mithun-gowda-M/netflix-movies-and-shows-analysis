@@ -1,5 +1,12 @@
-# Netflix Movies and Shows - Power BI Report Guide
+# Netflix Content Analytics & Recommender AI - Power BI Implementation Guide
 
+> **Academic Capstone Submission • Final Year Engineering in AIML**  
+> **Student Name**: Mithun Gowda M  
+> **Program**: B.E. / B.Tech in Artificial Intelligence & Machine Learning (AIML)  
+> **Department**: Department of Computer Science & Engineering (AIML)  
+> **Repository**: [https://github.com/Mithun-gowda-M/netflix-movies-and-shows-analysis](https://github.com/Mithun-gowda-M/netflix-movies-and-shows-analysis)  
+
+---
 ## 1. Overview
 Analyzes 5,800+ titles on Netflix to uncover content library evolution, genre popularity, age rating audience targeting, and viewer preferences.
 
@@ -33,3 +40,9 @@ Analyzes 5,800+ titles on Netflix to uncover content library evolution, genre po
    - Visual: Horizontal Bar Chart
    - Y-Axis: `production_countries`
    - X-Axis: `[Total Catalog Titles]`
+
+
+### 5. AIML Integration in Power BI
+- **Cosine Recommender Lookup Table**: Ingest pairwise similarity scores ($>0.75$) into a bridge table for interactive title-to-title recommendations.
+- **Engagement Tier Slicer**: Incorporate classification badges (`Blockbuster Hit`, `Critically Acclaimed`, `Mainstream Commercial`, `Niche`) as high-level category slicers.
+- **Python Visual in Power BI Desktop**: Render TF-IDF genre keyword co-occurrence heatmaps directly in the report canvas.
