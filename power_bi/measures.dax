@@ -1,0 +1,85 @@
+/* ====================================================================
+   POWER BI DAX MEASURES SUITE - NETFLIX CONTENT & VIEWER INTELLIGENCE
+   ==================================================================== */
+
+// --- 1. CATALOG VOLUME & TYPE SPLIT ---
+
+Total Catalog Titles = 
+COUNTROWS('Netflix_Titles')
+
+Total Movies = 
+CALCULATE([Total Catalog Titles], 'Netflix_Titles'[type] = "MOVIE")
+
+Total TV Shows = 
+CALCULATE([Total Catalog Titles], 'Netflix_Titles'[type] = "SHOW")
+
+Movie Share % = 
+DIVIDE([Total Movies], [Total Catalog Titles], 0) * 100
+
+TV Show Share % = 
+DIVIDE([Total TV Shows], [Total Catalog Titles], 0) * 100
+
+
+// --- 2. AUDIENCE ENGAGEMENT & QUALITY ---
+
+Average IMDb Rating = 
+AVERAGE('Netflix_Titles'[imdb_score])
+
+Total Viewer Votes = 
+SUM('Netflix_Titles'[imdb_votes])
+
+Average Runtime Minutes = 
+AVERAGE('Netflix_Titles'[runtime])
+
+Average Seasons (Shows) = 
+CALCULATE(
+    AVERAGE('Netflix_Titles'[seasons]),
+    'Netflix_Titles'[type] = "SHOW"
+)
+
+
+// --- 3. PREDICTIVE VIEWER PREFERENCE MODEL ---
+
+Predictive Viewer Preference Score = 
+VAR ScorePart = DIVIDE([Average IMDb Rating], 10, 0) * 60
+VAR TotalV = [Total Viewer Votes]
+VAR VotePart = 
+    IF(
+        TotalV > 0,
+        MIN(40, DIVIDE(LOG10(TotalV + 1), 6, 0) * 40),
+        0
+    )
+RETURN
+    ScorePart + VotePart
+
+Content Quality Tier = 
+VAR Score = [Average IMDb Rating]
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(Score), "Unrated",
+        Score >= 8.0, "Critically Acclaimed (Tier 1)",
+        Score >= 6.5, "Mainstream Popular (Tier 2)",
+        "Underperforming (Tier 3)"
+    )
+
+
+// --- 4. AUDIENCE CERTIFICATION DISTRIBUTION ---
+
+Mature Content Share % = 
+VAR MatureTitles = 
+    CALCULATE(
+        [Total Catalog Titles],
+        'Netflix_Titles'[age_certification] IN {"TV-MA", "R"}
+    )
+RETURN
+    DIVIDE(MatureTitles, [Total Catalog Titles], 0) * 100
+
+Family Friendly Share % = 
+VAR FamilyTitles = 
+    CALCULATE(
+        [Total Catalog Titles],
+        'Netflix_Titles'[age_certification] IN {"G", "PG", "TV-G", "TV-Y", "TV-Y7"}
+    )
+RETURN
+    DIVIDE(FamilyTitles, [Total Catalog Titles], 0) * 100

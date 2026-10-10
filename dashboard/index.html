@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Content Library & Viewer Engagement Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Header -->
+    <header class="top-header">
+      <div class="brand">
+        <div class="netflix-logo">NETFLIX</div>
+        <div>
+          <h1>Content Library & Audience Engagement Intelligence</h1>
+          <p class="subtitle">Global Streaming Trends, Genre Success Profiles, Age Targeting & Viewer Preference Modeling</p>
+        </div>
+      </div>
+      <div class="filter-controls">
+        <div class="control-group">
+          <label for="typeFilter">Format Slicer:</label>
+          <select id="typeFilter">
+            <option value="ALL">All Formats (Movies & Shows)</option>
+            <option value="MOVIE">Movies Only</option>
+            <option value="SHOW">TV Shows Only</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <!-- KPI Metric Cards Grid -->
+    <section class="kpi-grid">
+      <div class="kpi-card accent-red">
+        <div class="kpi-icon">🎬</div>
+        <div class="kpi-details">
+          <span class="kpi-label">Catalog Size</span>
+          <span class="kpi-value" id="kpiTotal">5,806</span>
+          <span class="kpi-badge neutral">Global Titles</span>
+        </div>
+      </div>
+      <div class="kpi-card accent-rose">
+        <div class="kpi-icon">🎥</div>
+        <div class="kpi-details">
+          <span class="kpi-label">Movies vs TV Shows</span>
+          <span class="kpi-value" id="kpiRatio">64.7% / 35.3%</span>
+          <span class="kpi-badge neutral">3,759 Movies • 2,047 Shows</span>
+        </div>
+      </div>
+      <div class="kpi-card accent-amber">
+        <div class="kpi-icon">⭐</div>
+        <div class="kpi-details">
+          <span class="kpi-label">Average IMDb Rating</span>
+          <span class="kpi-value" id="kpiScore">6.53 / 10</span>
+          <span class="kpi-badge positive">Viewer Quality Benchmark</span>
+        </div>
+      </div>
+      <div class="kpi-card accent-purple">
+        <div class="kpi-icon">🗳️</div>
+        <div class="kpi-details">
+          <span class="kpi-label">Total Viewer Votes</span>
+          <span class="kpi-value" id="kpiVotes">123.3M</span>
+          <span class="kpi-badge positive">Engagement Indicator</span>
+        </div>
+      </div>
+      <div class="kpi-card accent-cyan">
+        <div class="kpi-icon">⏱️</div>
+        <div class="kpi-details">
+          <span class="kpi-label">Avg Content Runtime</span>
+          <span class="kpi-value" id="kpiRuntime">78 Min</span>
+          <span class="kpi-badge neutral">Feature / Episode</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visuals Grid -->
+    <main class="dashboard-grid">
+      <!-- Entertainment Trends Over Time -->
+      <div class="card visual-span-2">
+        <div class="card-header">
+          <h2>Content Library Evolution Over Time (1990–2023)</h2>
+          <span class="card-tag">Release Year Trends</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Audience Targeting (Age Certification) -->
+      <div class="card">
+        <div class="card-header">
+          <h2>Audience Targeting & Age Rating</h2>
+          <span class="card-tag">Demographic Focus</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="ageCertChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Genre Distribution & Quality -->
+      <div class="card visual-span-2">
+        <div class="card-header">
+          <h2>Top Genres Volume & Average IMDb Quality</h2>
+          <span class="card-tag">Genre Performance</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="genreChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Top Production Countries -->
+      <div class="card">
+        <div class="card-header">
+          <h2>Top Production Hubs</h2>
+          <span class="card-tag">Geographic Sourcing</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="countryChart"></canvas>
+        </div>
+      </div>
+    </main>
+
+    <!-- Top Performing Titles & Predictive Preferences -->
+    <section class="card">
+      <div class="card-header">
+        <h2>Acclaimed Titles & Viewer Preference Ranking (Top Tier)</h2>
+        <span class="card-tag">Predictive Model (Score 0-100)</span>
+      </div>
+      <div class="table-responsive">
+        <table class="data-table" id="titlesTable">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Format</th>
+              <th>Release Year</th>
+              <th>Rating</th>
+              <th>Primary Genre</th>
+              <th>IMDb Score</th>
+              <th>IMDb Votes</th>
+              <th>Preference Score</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+      <p>Power BI Mini Project 4 • Netflix Movies and Shows • Predictive Viewer Preferences & Audience Targeting</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1660 @@
+{
+  "kpis": {
+    "totalTitles": 5806,
+    "movieCount": 3759,
+    "showCount": 2047,
+    "moviePct": 64.7,
+    "showPct": 35.3,
+    "avgScore": 6.53,
+    "totalVotes": 123285696,
+    "avgRuntimeMinutes": 78
+  },
+  "yearlyTrends": {
+    "1990": {
+      "movies": 7,
+      "shows": 0,
+      "total": 7
+    },
+    "1991": {
+      "movies": 12,
+      "shows": 2,
+      "total": 14
+    },
+    "1992": {
+      "movies": 3,
+      "shows": 1,
+      "total": 4
+    },
+    "1993": {
+      "movies": 17,
+      "shows": 4,
+      "total": 21
+    },
+    "1994": {
+      "movies": 10,
+      "shows": 3,
+      "total": 13
+    },
+    "1995": {
+      "movies": 10,
+      "shows": 2,
+      "total": 12
+    },
+    "1996": {
+      "movies": 7,
+      "shows": 1,
+      "total": 8
+    },
+    "1997": {
+      "movies": 13,
+      "shows": 2,
+      "total": 15
+    },
+    "1998": {
+      "movies": 21,
+      "shows": 5,
+      "total": 26
+    },
+    "1999": {
+      "movies": 10,
+      "shows": 3,
+      "total": 13
+    },
+    "2000": {
+      "movies": 8,
+      "shows": 5,
+      "total": 13
+    },
+    "2001": {
+      "movies": 18,
+      "shows": 6,
+      "total": 24
+    },
+    "2002": {
+      "movies": 13,
+      "shows": 8,
+      "total": 21
+    },
+    "2003": {
+      "movies": 24,
+      "shows": 9,
+      "total": 33
+    },
+    "2004": {
+      "movies": 29,
+      "shows": 6,
+      "total": 35
+    },
+    "2005": {
+      "movies": 27,
+      "shows": 10,
+      "total": 37
+    },
+    "2006": {
+      "movies": 39,
+      "shows": 13,
+      "total": 52
+    },
+    "2007": {
+      "movies": 43,
+      "shows": 10,
+      "total": 53
+    },
+    "2008": {
+      "movies": 51,
+      "shows": 15,
+      "total": 66
+    },
+    "2009": {
+      "movies": 44,
+      "shows": 19,
+      "total": 63
+    },
+    "2010": {
+      "movies": 52,
+      "shows": 21,
+      "total": 73
+    },
+    "2011": {
+      "movies": 74,
+      "shows": 31,
+      "total": 105
+    },
+    "2012": {
+      "movies": 79,
+      "shows": 31,
+      "total": 110
+    },
+    "2013": {
+      "movies": 105,
+      "shows": 37,
+      "total": 142
+    },
+    "2014": {
+      "movies": 114,
+      "shows": 46,
+      "total": 160
+    },
+    "2015": {
+      "movies": 143,
+      "shows": 93,
+      "total": 236
+    },
+    "2016": {
+      "movies": 229,
+      "shows": 142,
+      "total": 371
+    },
+    "2017": {
+      "movies": 397,
+      "shows": 183,
+      "total": 580
+    },
+    "2018": {
+      "movies": 473,
+      "shows": 301,
+      "total": 774
+    },
+    "2019": {
+      "movies": 540,
+      "shows": 308,
+      "total": 848
+    },
+    "2020": {
+      "movies": 499,
+      "shows": 306,
+      "total": 805
+    },
+    "2021": {
+      "movies": 455,
+      "shows": 303,
+      "total": 758
+    },
+    "2022": {
+      "movies": 108,
+      "shows": 109,
+      "total": 217
+    }
+  },
+  "genres": [
+    {
+      "genre": "drama",
+      "count": 2901,
+      "avgScore": 6.66,
+      "totalVotes": 85789109
+    },
+    {
+      "genre": "comedy",
+      "count": 2269,
+      "avgScore": 6.42,
+      "totalVotes": 38310238
+    },
+    {
+      "genre": "thriller",
+      "count": 1178,
+      "avgScore": 6.36,
+      "totalVotes": 53485339
+    },
+    {
+      "genre": "action",
+      "count": 1053,
+      "avgScore": 6.46,
+      "totalVotes": 40266434
+    },
+    {
+      "genre": "romance",
+      "count": 958,
+      "avgScore": 6.44,
+      "totalVotes": 21203093
+    },
+    {
+      "genre": "documentation",
+      "count": 910,
+      "avgScore": 7.04,
+      "totalVotes": 4805499
+    },
+    {
+      "genre": "crime",
+      "count": 891,
+      "avgScore": 6.68,
+      "totalVotes": 31150732
+    },
+    {
+      "genre": "animation",
+      "count": 665,
+      "avgScore": 6.73,
+      "totalVotes": 8270439
+    },
+    {
+      "genre": "fantasy",
+      "count": 631,
+      "avgScore": 6.58,
+      "totalVotes": 20209084
+    },
+    {
+      "genre": "family",
+      "count": 622,
+      "avgScore": 6.34,
+      "totalVotes": 8558696
+    },
+    {
+      "genre": "scifi",
+      "count": 587,
+      "avgScore": 6.58,
+      "totalVotes": 27044249
+    },
+    {
+      "genre": "european",
+      "count": 460,
+      "avgScore": 6.54,
+      "totalVotes": 13646393
+    }
+  ],
+  "ageCertifications": {
+    "TV-MA": 841,
+    "R": 575,
+    "PG": 246,
+    "TV-14": 470,
+    "G": 131,
+    "PG-13": 440,
+    "Unrated": 2610,
+    "TV-PG": 186,
+    "TV-Y": 105,
+    "TV-G": 76,
+    "TV-Y7": 112,
+    "NC-17": 14
+  },
+  "topCountries": [
+    {
+      "country": "US",
+      "count": 2327
+    },
+    {
+      "country": "IN",
+      "count": 629
+    },
+    {
+      "country": "GB",
+      "count": 406
+    },
+    {
+      "country": "JP",
+      "count": 291
+    },
+    {
+      "country": "FR",
+      "count": 248
+    },
+    {
+      "country": "CA",
+      "count": 216
+    },
+    {
+      "country": "KR",
+      "count": 216
+    },
+    {
+      "country": "ES",
+      "count": 212
+    },
+    {
+      "country": "DE",
+      "count": 139
+    },
+    {
+      "country": "MX",
+      "count": 123
+    }
+  ],
+  "topRatedTitles": [
+    {
+      "title": "Breaking Bad",
+      "type": "SHOW",
+      "releaseYear": 2008,
+      "ageCert": "TV-MA",
+      "runtime": 48,
+      "genres": [
+        "drama",
+        "thriller",
+        "crime"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 5,
+      "imdbScore": 9.5,
+      "imdbVotes": 1727694,
+      "preferenceScore": 97
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "type": "SHOW",
+      "releaseYear": 2005,
+      "ageCert": "TV-Y7",
+      "runtime": 24,
+      "genres": [
+        "scifi",
+        "family",
+        "fantasy",
+        "animation",
+        "action"
+      ],
+      "primaryGenre": "scifi",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 3,
+      "imdbScore": 9.3,
+      "imdbVotes": 297336,
+      "preferenceScore": 92.3
+    },
+    {
+      "title": "Our Planet",
+      "type": "SHOW",
+      "releaseYear": 2019,
+      "ageCert": "TV-G",
+      "runtime": 50,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 1,
+      "imdbScore": 9.3,
+      "imdbVotes": 41386,
+      "preferenceScore": 86.6
+    },
+    {
+      "title": "Kota Factory",
+      "type": "SHOW",
+      "releaseYear": 2019,
+      "ageCert": "TV-MA",
+      "runtime": 42,
+      "genres": [
+        "drama",
+        "comedy"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 2,
+      "imdbScore": 9.3,
+      "imdbVotes": 66985,
+      "preferenceScore": 88
+    },
+    {
+      "title": "The Last Dance",
+      "type": "SHOW",
+      "releaseYear": 2020,
+      "ageCert": "TV-MA",
+      "runtime": 50,
+      "genres": [
+        "documentation",
+        "history",
+        "sport"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 1,
+      "imdbScore": 9.1,
+      "imdbVotes": 108321,
+      "preferenceScore": 88.2
+    },
+    {
+      "title": "Arcane",
+      "type": "SHOW",
+      "releaseYear": 2021,
+      "ageCert": "TV-14",
+      "runtime": 41,
+      "genres": [
+        "action",
+        "scifi",
+        "drama",
+        "fantasy",
+        "animation"
+      ],
+      "primaryGenre": "action",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 1,
+      "imdbScore": 9.1,
+      "imdbVotes": 175412,
+      "preferenceScore": 89.6
+    },
+    {
+      "title": "DEATH NOTE",
+      "type": "SHOW",
+      "releaseYear": 2006,
+      "ageCert": "TV-14",
+      "runtime": 24,
+      "genres": [
+        "scifi",
+        "animation",
+        "crime",
+        "drama",
+        "fantasy",
+        "thriller"
+      ],
+      "primaryGenre": "scifi",
+      "countries": [
+        "JP"
+      ],
+      "primaryCountry": "JP",
+      "seasons": 1,
+      "imdbScore": 9,
+      "imdbVotes": 302147,
+      "preferenceScore": 90.5
+    },
+    {
+      "title": "Hunter x Hunter",
+      "type": "SHOW",
+      "releaseYear": 2011,
+      "ageCert": "TV-14",
+      "runtime": 23,
+      "genres": [
+        "drama",
+        "action",
+        "comedy",
+        "crime",
+        "animation",
+        "documentation",
+        "family",
+        "fantasy"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "JP"
+      ],
+      "primaryCountry": "JP",
+      "seasons": 3,
+      "imdbScore": 9,
+      "imdbVotes": 87857,
+      "preferenceScore": 87
+    },
+    {
+      "title": "Attack on Titan",
+      "type": "SHOW",
+      "releaseYear": 2013,
+      "ageCert": "TV-MA",
+      "runtime": 24,
+      "genres": [
+        "scifi",
+        "action",
+        "drama",
+        "fantasy",
+        "horror",
+        "animation"
+      ],
+      "primaryGenre": "scifi",
+      "countries": [
+        "JP"
+      ],
+      "primaryCountry": "JP",
+      "seasons": 4,
+      "imdbScore": 9,
+      "imdbVotes": 325381,
+      "preferenceScore": 90.7
+    },
+    {
+      "title": "David Attenborough: A Life on Our Planet",
+      "type": "MOVIE",
+      "releaseYear": 2020,
+      "ageCert": "PG",
+      "runtime": 83,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 0,
+      "imdbScore": 9,
+      "imdbVotes": 31180,
+      "preferenceScore": 84
+    },
+    {
+      "title": "Seinfeld",
+      "type": "SHOW",
+      "releaseYear": 1989,
+      "ageCert": "TV-PG",
+      "runtime": 24,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 9,
+      "imdbScore": 8.9,
+      "imdbVotes": 302700,
+      "preferenceScore": 89.9
+    },
+    {
+      "title": "Cowboy Bebop",
+      "type": "SHOW",
+      "releaseYear": 1998,
+      "ageCert": "TV-14",
+      "runtime": 25,
+      "genres": [
+        "western",
+        "action",
+        "scifi",
+        "thriller",
+        "animation",
+        "comedy",
+        "drama"
+      ],
+      "primaryGenre": "western",
+      "countries": [
+        "JP"
+      ],
+      "primaryCountry": "JP",
+      "seasons": 1,
+      "imdbScore": 8.9,
+      "imdbVotes": 112887,
+      "preferenceScore": 87.1
+    },
+    {
+      "title": "When They See Us",
+      "type": "SHOW",
+      "releaseYear": 2019,
+      "ageCert": "TV-MA",
+      "runtime": 74,
+      "genres": [
+        "drama",
+        "history",
+        "crime"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 1,
+      "imdbScore": 8.9,
+      "imdbVotes": 114127,
+      "preferenceScore": 87.1
+    },
+    {
+      "title": "Heartstopper",
+      "type": "SHOW",
+      "releaseYear": 2022,
+      "ageCert": "TV-14",
+      "runtime": 28,
+      "genres": [
+        "drama",
+        "romance"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 1,
+      "imdbScore": 8.9,
+      "imdbVotes": 28978,
+      "preferenceScore": 83.1
+    },
+    {
+      "title": "Monty Python's Flying Circus",
+      "type": "SHOW",
+      "releaseYear": 1969,
+      "ageCert": "TV-14",
+      "runtime": 30,
+      "genres": [
+        "comedy",
+        "european"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 4,
+      "imdbScore": 8.8,
+      "imdbVotes": 72895,
+      "preferenceScore": 85.2
+    }
+  ],
+  "sampleRecords": [
+    {
+      "title": "Five Came Back: The Reference Films",
+      "type": "SHOW",
+      "releaseYear": 1945,
+      "ageCert": "TV-MA",
+      "runtime": 48,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 1,
+      "imdbScore": null,
+      "imdbVotes": 0,
+      "preferenceScore": 50
+    },
+    {
+      "title": "Taxi Driver",
+      "type": "MOVIE",
+      "releaseYear": 1976,
+      "ageCert": "R",
+      "runtime": 113,
+      "genres": [
+        "crime",
+        "drama"
+      ],
+      "primaryGenre": "crime",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 8.3,
+      "imdbVotes": 795222,
+      "preferenceScore": 89.1
+    },
+    {
+      "title": "Monty Python and the Holy Grail",
+      "type": "MOVIE",
+      "releaseYear": 1975,
+      "ageCert": "PG",
+      "runtime": 91,
+      "genres": [
+        "comedy",
+        "fantasy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 0,
+      "imdbScore": 8.2,
+      "imdbVotes": 530877,
+      "preferenceScore": 87.4
+    },
+    {
+      "title": "Life of Brian",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "R",
+      "runtime": 94,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 0,
+      "imdbScore": 8,
+      "imdbVotes": 392419,
+      "preferenceScore": 85.3
+    },
+    {
+      "title": "The Exorcist",
+      "type": "MOVIE",
+      "releaseYear": 1973,
+      "ageCert": "R",
+      "runtime": 133,
+      "genres": [
+        "horror"
+      ],
+      "primaryGenre": "horror",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 8.1,
+      "imdbVotes": 391942,
+      "preferenceScore": 85.9
+    },
+    {
+      "title": "Monty Python's Flying Circus",
+      "type": "SHOW",
+      "releaseYear": 1969,
+      "ageCert": "TV-14",
+      "runtime": 30,
+      "genres": [
+        "comedy",
+        "european"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "GB"
+      ],
+      "primaryCountry": "GB",
+      "seasons": 4,
+      "imdbScore": 8.8,
+      "imdbVotes": 72895,
+      "preferenceScore": 85.2
+    },
+    {
+      "title": "Dirty Harry",
+      "type": "MOVIE",
+      "releaseYear": 1971,
+      "ageCert": "R",
+      "runtime": 102,
+      "genres": [
+        "thriller",
+        "crime",
+        "action"
+      ],
+      "primaryGenre": "thriller",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.7,
+      "imdbVotes": 153463,
+      "preferenceScore": 80.8
+    },
+    {
+      "title": "My Fair Lady",
+      "type": "MOVIE",
+      "releaseYear": 1964,
+      "ageCert": "G",
+      "runtime": 170,
+      "genres": [
+        "drama",
+        "music",
+        "romance",
+        "family"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.8,
+      "imdbVotes": 94121,
+      "preferenceScore": 80
+    },
+    {
+      "title": "The Blue Lagoon",
+      "type": "MOVIE",
+      "releaseYear": 1980,
+      "ageCert": "R",
+      "runtime": 104,
+      "genres": [
+        "romance",
+        "drama"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 5.8,
+      "imdbVotes": 69053,
+      "preferenceScore": 67.1
+    },
+    {
+      "title": "Bonnie and Clyde",
+      "type": "MOVIE",
+      "releaseYear": 1967,
+      "ageCert": "R",
+      "runtime": 110,
+      "genres": [
+        "drama",
+        "crime",
+        "action"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.7,
+      "imdbVotes": 111189,
+      "preferenceScore": 79.8
+    },
+    {
+      "title": "The Professionals",
+      "type": "MOVIE",
+      "releaseYear": 1966,
+      "ageCert": "PG-13",
+      "runtime": 117,
+      "genres": [
+        "western",
+        "action",
+        "european"
+      ],
+      "primaryGenre": "western",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.3,
+      "imdbVotes": 16168,
+      "preferenceScore": 71.9
+    },
+    {
+      "title": "The Guns of Navarone",
+      "type": "MOVIE",
+      "releaseYear": 1961,
+      "ageCert": "Unrated",
+      "runtime": 158,
+      "genres": [
+        "war",
+        "action",
+        "drama"
+      ],
+      "primaryGenre": "war",
+      "countries": [
+        "US",
+        "GB"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.5,
+      "imdbVotes": 50150,
+      "preferenceScore": 76.3
+    },
+    {
+      "title": "Lupin the Third: The Castle of Cagliostro",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "PG",
+      "runtime": 100,
+      "genres": [
+        "comedy",
+        "animation",
+        "action",
+        "fantasy",
+        "family"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "JP"
+      ],
+      "primaryCountry": "JP",
+      "seasons": 0,
+      "imdbScore": 7.6,
+      "imdbVotes": 30277,
+      "preferenceScore": 75.5
+    },
+    {
+      "title": "Richard Pryor: Live in Concert",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "R",
+      "runtime": 78,
+      "genres": [
+        "comedy",
+        "documentation"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 8.1,
+      "imdbVotes": 5141,
+      "preferenceScore": 73.3
+    },
+    {
+      "title": "The Long Riders",
+      "type": "MOVIE",
+      "releaseYear": 1980,
+      "ageCert": "R",
+      "runtime": 99,
+      "genres": [
+        "western",
+        "crime"
+      ],
+      "primaryGenre": "western",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 6.9,
+      "imdbVotes": 11329,
+      "preferenceScore": 68.4
+    },
+    {
+      "title": "White Christmas",
+      "type": "MOVIE",
+      "releaseYear": 1954,
+      "ageCert": "Unrated",
+      "runtime": 115,
+      "genres": [
+        "romance",
+        "comedy",
+        "music"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.5,
+      "imdbVotes": 42373,
+      "preferenceScore": 75.8
+    },
+    {
+      "title": "Cairo Station",
+      "type": "MOVIE",
+      "releaseYear": 1958,
+      "ageCert": "Unrated",
+      "runtime": 77,
+      "genres": [
+        "drama",
+        "crime",
+        "comedy"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 7.5,
+      "imdbVotes": 4385,
+      "preferenceScore": 69.3
+    },
+    {
+      "title": "The Queen",
+      "type": "MOVIE",
+      "releaseYear": 1968,
+      "ageCert": "Unrated",
+      "runtime": 68,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 7.2,
+      "imdbVotes": 1117,
+      "preferenceScore": 63.5
+    },
+    {
+      "title": "Hitler: A Career",
+      "type": "MOVIE",
+      "releaseYear": 1977,
+      "ageCert": "PG",
+      "runtime": 150,
+      "genres": [
+        "documentation",
+        "history",
+        "european"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "DE"
+      ],
+      "primaryCountry": "DE",
+      "seasons": 0,
+      "imdbScore": 7.5,
+      "imdbVotes": 2416,
+      "preferenceScore": 67.6
+    },
+    {
+      "title": "FTA",
+      "type": "MOVIE",
+      "releaseYear": 1972,
+      "ageCert": "R",
+      "runtime": 97,
+      "genres": [
+        "comedy",
+        "documentation",
+        "music"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 6.2,
+      "imdbVotes": 411,
+      "preferenceScore": 54.6
+    },
+    {
+      "title": "Saladin the Victorious",
+      "type": "MOVIE",
+      "releaseYear": 1963,
+      "ageCert": "Unrated",
+      "runtime": 186,
+      "genres": [
+        "drama",
+        "war",
+        "action",
+        "history",
+        "romance"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 7.6,
+      "imdbVotes": 2470,
+      "preferenceScore": 68.2
+    },
+    {
+      "title": "Singapore",
+      "type": "MOVIE",
+      "releaseYear": 1960,
+      "ageCert": "Unrated",
+      "runtime": 158,
+      "genres": [
+        "drama",
+        "thriller",
+        "crime"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.4,
+      "imdbVotes": 82,
+      "preferenceScore": 51.2
+    },
+    {
+      "title": "Dark Waters",
+      "type": "MOVIE",
+      "releaseYear": 1956,
+      "ageCert": "Unrated",
+      "runtime": 120,
+      "genres": [
+        "drama",
+        "action",
+        "romance",
+        "thriller"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 6.7,
+      "imdbVotes": 590,
+      "preferenceScore": 58.7
+    },
+    {
+      "title": "Alexandria… Why?",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "Unrated",
+      "runtime": 133,
+      "genres": [
+        "drama"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 7.2,
+      "imdbVotes": 1689,
+      "preferenceScore": 64.7
+    },
+    {
+      "title": "Raya and Sakina",
+      "type": "MOVIE",
+      "releaseYear": 1953,
+      "ageCert": "Unrated",
+      "runtime": 105,
+      "genres": [
+        "drama",
+        "thriller",
+        "crime",
+        "history"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 6.8,
+      "imdbVotes": 231,
+      "preferenceScore": 56.6
+    },
+    {
+      "title": "No Longer Kids",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "Unrated",
+      "runtime": 235,
+      "genres": [
+        "comedy",
+        "drama"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 9,
+      "imdbVotes": 943,
+      "preferenceScore": 73.8
+    },
+    {
+      "title": "Amrapali",
+      "type": "MOVIE",
+      "releaseYear": 1966,
+      "ageCert": "Unrated",
+      "runtime": 120,
+      "genres": [
+        "fantasy"
+      ],
+      "primaryGenre": "fantasy",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.7,
+      "imdbVotes": 225,
+      "preferenceScore": 55.9
+    },
+    {
+      "title": "Dostana",
+      "type": "MOVIE",
+      "releaseYear": 1980,
+      "ageCert": "Unrated",
+      "runtime": 161,
+      "genres": [
+        "drama",
+        "comedy",
+        "romance",
+        "action",
+        "crime"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 2.1,
+      "imdbVotes": 25,
+      "preferenceScore": 22
+    },
+    {
+      "title": "The Blazing Sun",
+      "type": "MOVIE",
+      "releaseYear": 1954,
+      "ageCert": "Unrated",
+      "runtime": 100,
+      "genres": [
+        "romance",
+        "crime",
+        "drama"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": 7.4,
+      "imdbVotes": 1219,
+      "preferenceScore": 65
+    },
+    {
+      "title": "Monty Python's Fliegender Zirkus",
+      "type": "SHOW",
+      "releaseYear": 1972,
+      "ageCert": "TV-MA",
+      "runtime": 43,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [],
+      "primaryCountry": "Unknown",
+      "seasons": 1,
+      "imdbScore": 8.1,
+      "imdbVotes": 2144,
+      "preferenceScore": 70.8
+    },
+    {
+      "title": "The Return of the Prodigal Son",
+      "type": "MOVIE",
+      "releaseYear": 1976,
+      "ageCert": "Unrated",
+      "runtime": 124,
+      "genres": [
+        "drama",
+        "crime"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "DZ",
+        "EG"
+      ],
+      "primaryCountry": "DZ",
+      "seasons": 0,
+      "imdbScore": 7.2,
+      "imdbVotes": 768,
+      "preferenceScore": 62.4
+    },
+    {
+      "title": "Prince",
+      "type": "MOVIE",
+      "releaseYear": 1969,
+      "ageCert": "Unrated",
+      "runtime": 152,
+      "genres": [
+        "romance"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.9,
+      "imdbVotes": 168,
+      "preferenceScore": 56.3
+    },
+    {
+      "title": "Lock Your Girls In",
+      "type": "MOVIE",
+      "releaseYear": 1980,
+      "ageCert": "Unrated",
+      "runtime": 230,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": null,
+      "imdbVotes": 0,
+      "preferenceScore": 50
+    },
+    {
+      "title": "The Witness Who Didn't See Anything",
+      "type": "MOVIE",
+      "releaseYear": 1976,
+      "ageCert": "Unrated",
+      "runtime": 217,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": null,
+      "imdbVotes": 0,
+      "preferenceScore": 50
+    },
+    {
+      "title": "The School of Mischief",
+      "type": "MOVIE",
+      "releaseYear": 1973,
+      "ageCert": "Unrated",
+      "runtime": 251,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "EG"
+      ],
+      "primaryCountry": "EG",
+      "seasons": 0,
+      "imdbScore": null,
+      "imdbVotes": 0,
+      "preferenceScore": 50
+    },
+    {
+      "title": "Manoranjan",
+      "type": "MOVIE",
+      "releaseYear": 1974,
+      "ageCert": "Unrated",
+      "runtime": 162,
+      "genres": [
+        "comedy",
+        "drama",
+        "romance"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.5,
+      "imdbVotes": 236,
+      "preferenceScore": 54.8
+    },
+    {
+      "title": "Beirut, Oh Beirut",
+      "type": "MOVIE",
+      "releaseYear": 1975,
+      "ageCert": "Unrated",
+      "runtime": 110,
+      "genres": [
+        "drama"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "LB"
+      ],
+      "primaryCountry": "LB",
+      "seasons": 0,
+      "imdbScore": 6.5,
+      "imdbVotes": 106,
+      "preferenceScore": 52.5
+    },
+    {
+      "title": "We Are All for the Fatherland",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "Unrated",
+      "runtime": 74,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "FR",
+        "LB",
+        "CA"
+      ],
+      "primaryCountry": "FR",
+      "seasons": 0,
+      "imdbScore": 6.2,
+      "imdbVotes": 43,
+      "preferenceScore": 48.2
+    },
+    {
+      "title": "Whispers",
+      "type": "MOVIE",
+      "releaseYear": 1980,
+      "ageCert": "Unrated",
+      "runtime": 93,
+      "genres": [
+        "documentation"
+      ],
+      "primaryGenre": "documentation",
+      "countries": [
+        "FR",
+        "LB",
+        "CA"
+      ],
+      "primaryCountry": "FR",
+      "seasons": 0,
+      "imdbScore": 7.8,
+      "imdbVotes": 75,
+      "preferenceScore": 59.3
+    },
+    {
+      "title": "Lal Patthar",
+      "type": "MOVIE",
+      "releaseYear": 1971,
+      "ageCert": "Unrated",
+      "runtime": 153,
+      "genres": [
+        "drama"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.2,
+      "imdbVotes": 137,
+      "preferenceScore": 51.5
+    },
+    {
+      "title": "Ujala",
+      "type": "MOVIE",
+      "releaseYear": 1959,
+      "ageCert": "Unrated",
+      "runtime": 142,
+      "genres": [
+        "romance",
+        "crime",
+        "drama"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.7,
+      "imdbVotes": 78,
+      "preferenceScore": 52.9
+    },
+    {
+      "title": "Alibaba Aur 40 Chor",
+      "type": "MOVIE",
+      "releaseYear": 1979,
+      "ageCert": "Unrated",
+      "runtime": 138,
+      "genres": [
+        "drama",
+        "action",
+        "romance",
+        "family",
+        "fantasy"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN",
+        "SU"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.2,
+      "imdbVotes": 555,
+      "preferenceScore": 55.5
+    },
+    {
+      "title": "Professor",
+      "type": "MOVIE",
+      "releaseYear": 1962,
+      "ageCert": "Unrated",
+      "runtime": 163,
+      "genres": [
+        "romance",
+        "comedy",
+        "drama"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 6.8,
+      "imdbVotes": 285,
+      "preferenceScore": 57.2
+    },
+    {
+      "title": "Chadi Jawani Budhe Nu",
+      "type": "MOVIE",
+      "releaseYear": 1976,
+      "ageCert": "Unrated",
+      "runtime": 135,
+      "genres": [
+        "romance"
+      ],
+      "primaryGenre": "romance",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 4.6,
+      "imdbVotes": 14,
+      "preferenceScore": 35.4
+    },
+    {
+      "title": "Bandie",
+      "type": "MOVIE",
+      "releaseYear": 1978,
+      "ageCert": "Unrated",
+      "runtime": 141,
+      "genres": [
+        "drama",
+        "romance",
+        "action"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 4.2,
+      "imdbVotes": 35,
+      "preferenceScore": 35.6
+    },
+    {
+      "title": "Khoon Khoon",
+      "type": "MOVIE",
+      "releaseYear": 1973,
+      "ageCert": "Unrated",
+      "runtime": 131,
+      "genres": [
+        "drama",
+        "crime",
+        "thriller"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "IN"
+      ],
+      "primaryCountry": "IN",
+      "seasons": 0,
+      "imdbScore": 5.1,
+      "imdbVotes": 41,
+      "preferenceScore": 41.4
+    },
+    {
+      "title": "Top Gun",
+      "type": "MOVIE",
+      "releaseYear": 1986,
+      "ageCert": "PG",
+      "runtime": 110,
+      "genres": [
+        "drama",
+        "action"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 6.9,
+      "imdbVotes": 329656,
+      "preferenceScore": 78.2
+    },
+    {
+      "title": "Seinfeld",
+      "type": "SHOW",
+      "releaseYear": 1989,
+      "ageCert": "TV-PG",
+      "runtime": 24,
+      "genres": [
+        "comedy"
+      ],
+      "primaryGenre": "comedy",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 9,
+      "imdbScore": 8.9,
+      "imdbVotes": 302700,
+      "preferenceScore": 89.9
+    },
+    {
+      "title": "Stand by Me",
+      "type": "MOVIE",
+      "releaseYear": 1986,
+      "ageCert": "R",
+      "runtime": 89,
+      "genres": [
+        "drama"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 8.1,
+      "imdbVotes": 392790,
+      "preferenceScore": 85.9
+    },
+    {
+      "title": "Once Upon a Time in America",
+      "type": "MOVIE",
+      "releaseYear": 1984,
+      "ageCert": "R",
+      "runtime": 229,
+      "genres": [
+        "drama",
+        "crime",
+        "european"
+      ],
+      "primaryGenre": "drama",
+      "countries": [
+        "US",
+        "IT"
+      ],
+      "primaryCountry": "US",
+      "seasons": 0,
+      "imdbScore": 8.3,
+      "imdbVotes": 342335,
+      "preferenceScore": 86.7
+    }
+  ]
+}
